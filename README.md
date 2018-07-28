@@ -50,4 +50,5 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 - Thanks to all comic book creators.
 - Udacity
 - Google
+- Andela Learning Community (ALC)
 
