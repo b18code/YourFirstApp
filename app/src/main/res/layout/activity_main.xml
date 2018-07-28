@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3262a5"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/hero_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/multi_cover" />
+
+    <TextView
+        android:id="@+id/name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hero_image_view"
+        android:background="#003c8f"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:text="Comic Stuff Shop"
+        android:textColor="@android:color/white"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_text_view"
+        android:background="#194f9a"
+        android:paddingBottom="10dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="35dp"
+        android:paddingTop="5dp"
+        android:text="Where heroes spent their free time. We deal with all things comic-ky."
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/web_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/description"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_web_black_24dp"
+        android:tint="@android:color/white" />
+
+    <TextView
+        android:id="@+id/website_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/web_image_view"
+        android:text="www.comicstuffshop.com"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/mail_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/website_text_view"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_email_black_24dp"
+        android:tint="@android:color/white" />
+
+    <TextView
+        android:id="@+id/mail_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/website_text_view"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/mail_image_view"
+        android:text="comicstuffshop@gmail.com"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+
+    <ImageView
+        android:id="@+id/phone_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/mail_text_view"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_local_phone_black_24dp"
+        android:tint="@android:color/white" />
+
+    <TextView
+        android:id="@+id/phone_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mail_text_view"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/phone_image_view"
+        android:text="(011) 555-5232"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/location_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/phone_text_view"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_location_on_black_24dp"
+        android:tint="@android:color/white" />
+
+    <TextView
+        android:id="@+id/super_rd_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone_text_view"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/location_image_view"
+        android:text="30 Super Rd"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/hero_park_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/super_rd_text_view"
+        android:layout_marginLeft="6dp"
+        android:layout_toRightOf="@id/location_image_view"
+        android:text="Hero Park"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/metropolis_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hero_park_text_view"
+        android:layout_marginLeft="6dp"
+        android:layout_toRightOf="@id/location_image_view"
+        android:text="Metropolis"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/clock_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/metropolis_text_view"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_access_time_black_24dp"
+        android:tint="@android:color/white" />
+
+    <TextView
+        android:id="@+id/mon_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/metropolis_text_view"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/clock_image_view"
+        android:text="Mon - Fri: 8:00 - 16:00"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/sat_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mon_text_view"
+        android:layout_marginLeft="6dp"
+        android:layout_toRightOf="@id/clock_image_view"
+        android:text="Sat: 9:00 - 14:00"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/sun_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sat_text_view"
+        android:layout_marginLeft="6dp"
+        android:layout_toRightOf="@id/clock_image_view"
+        android:text="Sun: closed"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+</RelativeLayout>
