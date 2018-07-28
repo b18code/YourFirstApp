@@ -26,8 +26,11 @@ These instructions will get you a copy of the project up and running on your loc
 ## Installing
 1. Download the project onto your device (This assumes you are using a PC/ Laptop)
 2. Unzip the file
-2. Import the project into Android Studio
-3. Happy coding
+3. Start Android Studio 
+4. Click on "Open an existing Android Studio project"
+5. Navigate to the root directory of the project (For mine it was:C:\Users\User\Downloads\YourFirstApp-master\YourFirstApp-master)
+6. Click 'OK'
+7. Happy coding
 
 ## Built With
 - Android Studio 3.1.3
