@@ -1,7 +1,5 @@
 # YourFirstApp
 
-## Project Title
-
 This project is based on Udacity's "Your First App" project. 
 The project was about: "Design and implement a single screen app that displays information about a fictional small business."
 
