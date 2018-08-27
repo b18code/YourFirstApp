@@ -20,7 +20,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Prerequisites
 - Android Studio 3.1.3 (with knowledge to use it)
-- A phone emulator (you can setup one in Android studio
+- A phone emulator (you can setup one in Android studio)
   - Emulator used from Android Studio: Nexus 5X (5.2 1080 x 1920 420dpi ) with API: P
 
 ## Installing
